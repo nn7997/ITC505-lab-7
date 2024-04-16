@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Mad Lib</title>
     <style>
-        @import url('https://fonts.cdnfonts.com/css/nevermind-bauhaus');
+        @import url('https://fonts.cdnfonts.com/css/noto-sans-devanagari');
         body {
-            font-family: 'NeverMind Bauhaus', sans-serif;                                    
-            background-color: #e7eaf6;
+            font-family: 'Noto Sans Devanagari', sans-serif;                                  
+            background-color: #5356FF;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -25,8 +25,7 @@
         }
         h1,p{
             color: black;
-            font-family: 'NeverMind Bauhaus', sans-serif;
-                                                
+            font-family: 'Noto Sans Devanagari', sans-serif;              
         }
         h2 {
             text-align: center;
@@ -56,7 +55,7 @@
         }
 
         input[type="submit"] {
-            background-color: #7a42f4;
+            background-color: #891652;
             color: white;
             padding: 10px 15px;
             border: none;
@@ -67,7 +66,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: black;
+            background-color: grey;
         }
     </style>
 </head>
@@ -95,45 +94,45 @@
     </form>
     </div>
     <hr>
-    <div>
-        <h1>ADDENDUM</h1>
-        <h2><b>HTML Frontend:</b></h2>
-<P>
-<ul>
-    <li>You have an HTML form designed to submit a Mad Lib story. Users input various parts of speech (adjective, plural noun, person's name, verb, noun), which are then submitted to the server.</li>
-    <li>The form is styled using CSS for aesthetics and usability, including responsive input fields and buttons.</li>
-</ul>
-</P> 
-<h2><b>Server Setup:</b></h2>
-<p>
-    <ul>
-<li>The server is set up using Express, a popular Node.js framework for building web applications and APIs.</li>
-<li>Routes are defined for serving the HTML form (GET request) and for handling the form submission (POST request).</li>
-<li>The POST route processes the form data and generates a Mad Lib based on the user’s inputs.</li>
-    </ul>
-        </p>
-<h2><b>Package Configuration:</b></h2>
-<p>
-    <ul>
-<li>The package.json and package-lock.json files indicate dependencies and other configurations necessary for running the application.</li>
-<li>The project is dependent on Express version 4.18.2, and the server is launched using a start script defined in package.json.</li>
-    </ul>
-        </p>
-<h2><b>File Structure:</b></h2>
-<p>
-    <ul>
-<li>The use of the path module suggests that HTML files are served from a directory relative to the server script, using paths to ensure that files are correctly located regardless of the execution context.</li>
-    </ul>
-        </p>
-<h2><b>Potential Improvements/Additions:</b></h2>
-<p>
-    <ul>
-<li>Error Handling: Adding error handling on the server side to manage cases where the form data might not be sent correctly.</li>
-<li>User Feedback: Implementing client-side JavaScript to validate inputs before submission and provide immediate feedback.</li>
-<li>Enhancements: You might consider expanding the application to support multiple Mad Lib templates or storing user-generated Mad Libs in a database for later retrieval.</li>
-    </ul>
-        </p>
-    </div>
+<div>
+    <h1>Addendum</h1>
+    <h2><b>HTML Frontend:</b></h2>
+    <P>
+        <ul>
+            <li>An HTML form is provided for users to input various parts of speech (adjective, plural noun, person's name, verb, noun), which are then submitted to the server.</li>
+            <li>The form is styled using CSS for aesthetics and usability, including responsive input fields and buttons.</li>
+        </ul>
+    </P>
+    <h2><b>Server Setup:</b></h2>
+    <p>
+        <ul>
+            <li>The server is configured using Express, a popular Node.js framework for building web applications and APIs.</li>
+            <li>Routes are defined for serving the HTML form (GET request) and for handling the form submission (POST request).</li>
+            <li>The POST route processes the form data and generates a Mad Lib based on the user’s inputs.</li>
+        </ul>
+    </p>
+    <h2><b>Package Configuration:</b></h2>
+    <p>
+        <ul>
+            <li>The package.json and package-lock.json files indicate dependencies and other configurations necessary for running the application.</li>
+            <li>The project is dependent on Express version 4.18.2, and the server is launched using a start script defined in package.json.</li>
+        </ul>
+    </p>
+    <h2><b>File Structure:</b></h2>
+    <p>
+        <ul>
+            <li>The use of the path module suggests that HTML files are served from a directory relative to the server script, using paths to ensure that files are correctly located regardless of the execution context.</li>
+        </ul>
+    </p>
+    <h2><b>Potential Improvements/Additions:</b></h2>
+    <p>
+        <ul>
+            <li>Error Handling: Adding error handling on the server side to manage cases where the form data might not be sent correctly.</li>
+            <li>User Feedback: Implementing client-side JavaScript to validate inputs before submission and provide immediate feedback.</li>
+            <li>Enhancements: Consider expanding the application to support multiple Mad Lib templates or storing user-generated Mad Libs in a database for later retrieval.</li>
+        </ul>
+    </p>
+</div>
         <hr>
 <div>
      <footer>
